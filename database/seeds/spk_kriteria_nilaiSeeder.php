@@ -1,0 +1,90 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class spk_kriteria_nilaiSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'6',
+        	'kriteria_id_tujuan'=>'7',
+        	'nilai'=>'1',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'6',
+        	'kriteria_id_tujuan'=>'8',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'6',
+        	'kriteria_id_tujuan'=>'9',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'6',
+        	'kriteria_id_tujuan'=>'10',
+        	'nilai'=>'5',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'6',
+        	'kriteria_id_tujuan'=>'11',
+        	'nilai'=>'5',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'7',
+        	'kriteria_id_tujuan'=>'8',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'7',
+        	'kriteria_id_tujuan'=>'9',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'7',
+        	'kriteria_id_tujuan'=>'10',
+        	'nilai'=>'5',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'7',
+        	'kriteria_id_tujuan'=>'11',
+        	'nilai'=>'5',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'8',
+        	'kriteria_id_tujuan'=>'9',
+        	'nilai'=>'1',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'8',
+        	'kriteria_id_tujuan'=>'10',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'8',
+        	'kriteria_id_tujuan'=>'11',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'9',
+        	'kriteria_id_tujuan'=>'10',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'9',
+        	'kriteria_id_tujuan'=>'11',
+        	'nilai'=>'2',
+        ]);
+        \App\Spk_Kriteria_Nilai::create([
+        	'kriteria_id_dari'=>'10',
+        	'kriteria_id_tujuan'=>'11',
+        	'nilai'=>'1',
+        ]);
+    }
+}
